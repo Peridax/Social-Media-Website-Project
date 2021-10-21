@@ -1,0 +1,33 @@
+{
+  "name": "social-media-website",
+  "version": "1.0.0",
+  "description": "Social ne]\\",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peridax/Social-Media-Website-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peridax/Social-Media-Website-Project/issues"
+  },
+  "homepage": "https://github.com/Peridax/Social-Media-Website-Project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
